@@ -454,7 +454,7 @@ order: 803
       github: 'LinusBorg',
       twitter: 'Linus_Borg',
       reposOfficial: [
-        'vuejs/*', 'vuejs-templates/*', 'vue-touch'
+        'vuejs/*'
       ],
       reposPersonal: [
         'portal-vue'
@@ -600,7 +600,25 @@ order: 803
       languages: ['pl', 'en'],
       github: 'gustojs',
       twitter: 'gustojs'
-    }
+    },
+    {
+      name: 'Phan An',
+      title: 'Backend Designer & Process Poet',
+      city: 'Munich, Germany',
+      languages: ['vi', 'en'],
+      github: 'phanan',
+      twitter: 'notphanan',
+      reposOfficial: [
+        'vuejs.org'
+      ],
+      reposPersonal: [
+        'vuequery', 'vue-google-signin-button'
+      ],
+      links: [
+        'https://vi.vuejs.org',
+        'https://phanan.net/'
+      ]
+    },
   ]))
 
   var emeriti = shuffle([
@@ -645,17 +663,6 @@ order: 803
       github: 'fnlctrl',
       reposOfficial: [
         'vue-router'
-      ]
-    },
-    {
-      name: 'Phan An',
-      title: 'Backend Designer & Process Poet',
-      city: 'Munich, Germany',
-      languages: ['vi', 'en'],
-      github: 'phanan',
-      twitter: 'notphanan',
-      links: [
-        'https://phanan.net/'
       ]
     },
     {
@@ -1134,20 +1141,58 @@ order: 803
       ]
     },
     {
-      name: 'Phan An',
-      title: 'Backend Designer & Process Poet',
-      city: 'Munich, Germany',
-      languages: ['vi', 'en'],
-      github: 'phanan',
-      twitter: 'notphanan',
+      name: 'Filip Rakowski',
+      title: 'eCommerce & PWA mastah',
+      city: 'Wrocław, Poland',
+      languages: ['pl', 'en'],
+      github: 'filrak',
+      twitter: 'filrakowski',
+      work: {
+        role: 'FED & Vue Storefront Co-founder',
+        org: 'Divante',
+        orgUrl: 'https://divante.co/'
+      },
       reposPersonal: [
-        'vuequery', 'vue-google-signin-button'
+        'DivanteLtd/vue-storefront', 'filrak/vue-offline'
       ],
       links: [
-        'https://vi.vuejs.org',
-        'https://phanan.net/'
+        'https://vuestorefront.io'
       ]
     },
+    {
+      name: 'Gregg Pollack',
+      title: '',
+      city: 'Orlando, FL',
+      languages: ['en'],
+      github: 'gregg',
+      twitter: 'greggpollack',
+      work: {
+        role: 'Vue Instructor',
+        org: 'Vue Mastery',
+        orgUrl: 'https://www.vuemastery.com/'
+      },
+      links: [
+        'https://www.vuemastery.com',
+        'https://news.vuejs.org/'
+      ]
+    },
+    {
+      name: 'Adam Jahr',
+      title: '',
+      city: 'Orlando, FL',
+      languages: ['en'],
+      github: 'atomjar',
+      twitter: 'adamjahr',
+      work: {
+        role: 'Vue Instructor',
+        org: 'Vue Mastery',
+        orgUrl: 'https://www.vuemastery.com/'
+      },
+      links: [
+        'https://www.vuemastery.com',
+        'https://news.vuejs.org/'
+      ]
+    }
   ]
 
   Vue.component('vuer-profile', {
